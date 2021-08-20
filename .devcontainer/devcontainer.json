@@ -24,6 +24,12 @@
     "miguel-savignano.ruby-symbols",
     "wingrunr21.vscode-ruby",
     "humao.rest-client",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "github.vscode-pull-request-github",
+    "mhutchie.git-graph",
+    
   ],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

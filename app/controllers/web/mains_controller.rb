@@ -1,5 +1,5 @@
 class Web::MainsController < Web::ApplicationController
   def show
-    @users = User.all
+    render(react_component: 'App', props: {})
   end
 end
