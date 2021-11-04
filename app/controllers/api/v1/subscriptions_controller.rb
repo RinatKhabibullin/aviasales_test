@@ -6,7 +6,7 @@ class Api::V1::SubscriptionsController < Api::V1::ApplicationController
                        Subscription.all
                      end
 
-    respond_with(@subscriptions, each_serializer: SubscriptionSerializer)
+    respond_with(@subscriptions, each_serializer: SubscriptionSerializer, root: 'items')
   end
 
   def create
