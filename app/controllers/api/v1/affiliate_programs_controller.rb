@@ -7,6 +7,6 @@ class Api::V1::AffiliateProgramsController < Api::V1::ApplicationController
                             AffiliateProgram.all
                           end
 
-    respond_with(@affiliate_programs, each_serializer: AffiliateProgramSerializer, root: 'items')
+    respond_with(@affiliate_programs, each_serializer: AffiliateProgramSerializer)
   end
 end
